@@ -1,0 +1,59 @@
+1)Uptime: 
+  22:39:30 up 2 days,  3:13,  1 user,  load average: 0,40, 0,43, 0,38 
+2) Current users:
+ stefan
+3) Recent logins:
+ stefan   :0           :0               Tue Mar 23 19:27   still logged in
+reboot   system boot  5.8.0-45-generic Tue Mar 23 19:26   still running
+stefan   :0           :0               Mon Mar 22 22:36 - crash  (20:50)
+reboot   system boot  5.8.0-45-generic Tue Mar 23 00:34   still running
+stefan   :0           :0               Sat Mar 20 17:50 - down  (1+18:22)
+reboot   system boot  5.8.0-44-generic Sat Mar 20 19:49 - 12:13 (1+16:23)
+stefan   :0           :0               Sat Mar 13 23:32 - down  (1+16:47)
+reboot   system boot  5.8.0-44-generic Sat Mar 13 23:31 - 16:19 (1+16:48)
+stefan   :0           :0               Sat Mar 13 23:26 - down   (00:04)
+reboot   system boot  5.8.0-44-generic Sat Mar 13 23:25 - 23:30  (00:05)
+stefan   :0           :0               Sat Mar 13 23:23 - down   (00:01)
+reboot   system boot  5.8.0-44-generic Sat Mar 13 23:21 - 23:25  (00:03)
+
+wtmp begins Sat Mar 13 23:21:52 2021 
+4) TOP-10 processes by RAM/CPU usage:
+     PID    PPID CMD                         %MEM %CPU
+  19650    1629 telegram-desktop --          9.5  1.4
+  58720   58719 /opt/zoom/zoom zoommtg://us  6.6  2.5
+  45155    1391 /opt/google/chrome/chrome    6.0  2.9
+  45627   45246 /opt/google/chrome/chrome -  5.1  0.2
+   1629    1391 /usr/bin/gnome-shell         4.8  2.5
+  45874   45246 /opt/google/chrome/chrome -  4.0  0.1
+  71617   45246 /opt/google/chrome/chrome -  3.8  1.5
+  71808   45246 /opt/google/chrome/chrome -  3.3  1.5
+  71667   45246 /opt/google/chrome/chrome -  3.0  0.6
+5) Open TCP/UDP ports:
+ tcp        0      0 127.0.0.53:53           0.0.0.0:*               LISTEN      351/systemd-resolve 
+tcp        0      0 127.0.0.1:631           0.0.0.0:*               LISTEN      39005/cupsd         
+tcp6       0      0 ::1:631                 :::*                    LISTEN      39005/cupsd         
+6) Virtual Memory usage:
+ procs -----------memory---------- ---swap-- -----io---- -system-- ------cpu-----
+ r  b   swpd   free   buff  cache   si   so    bi    bo   in   cs us sy id wa st
+ 1  0 1176644 633900  66504 1246576    3   12    42    86  185  137 27  7 65  0  0
+7) Usage of disk space:
+ Файл.система   Размер Использовано  Дост Использовано% Cмонтировано в
+udev             1,9G            0  1,9G            0% /dev
+tmpfs            380M         1,8M  378M            1% /run
+/dev/sda3         26G          13G   12G           53% /
+tmpfs            1,9G          70M  1,8G            4% /dev/shm
+tmpfs            5,0M         4,0K  5,0M            1% /run/lock
+tmpfs            1,9G            0  1,9G            0% /sys/fs/cgroup
+/dev/loop0        56M          56M     0          100% /snap/core18/1988
+/dev/loop1       283M         283M     0          100% /snap/atom/275
+/dev/loop2        62M          62M     0          100% /snap/core20/904
+/dev/loop3       219M         219M     0          100% /snap/gnome-3-34-1804/66
+/dev/loop4       163M         163M     0          100% /snap/gnome-3-28-1804/145
+/dev/loop5        65M          65M     0          100% /snap/gtk-common-themes/1514
+/dev/loop6        17M          17M     0          100% /snap/htop/2185
+/dev/loop7        52M          52M     0          100% /snap/snap-store/518
+/dev/loop9        33M          33M     0          100% /snap/snapd/11107
+/dev/loop10      273M         273M     0          100% /snap/telegram-desktop/2480
+/dev/loop11      273M         273M     0          100% /snap/telegram-desktop/2551
+tmpfs            380M          68K  380M            1% /run/user/1000
+/dev/loop12       33M          33M     0          100% /snap/snapd/11402
